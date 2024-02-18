@@ -6,7 +6,7 @@ import { IoHomeOutline } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
 const styleFooterIcon = { width: "30px", height: "30px", color: "black" };
 
-const styleNavbarIcon = { width: "40px", height: "40px", color: "black" };
+const styleNavbarIcon = { width: "30px", height: "30px", color: "black" };
 
 export const ROUTES = {
   home: {

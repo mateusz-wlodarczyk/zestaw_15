@@ -5,14 +5,14 @@ export default function Logo() {
   return (
     <Box
       sx={{
+        fontSize: "50px",
+
         justifyContent: "center",
         display: "flex",
-        fontSize: "50px",
-        height: "150px",
         alignItems: "center",
       }}
     >
-      <Box>{"</zestaw_15>"} </Box>
+      <Box sx={{ fontSize: "50px" }}>{"</zestaw_15>"} </Box>
     </Box>
   );
 }
