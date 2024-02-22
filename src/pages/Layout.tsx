@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         padding: "15px",
         margin: "auto",
         marginTop: "10px",
-        width: "85%",
+        width: "85vw",
       }}
     >
       <Box
@@ -28,9 +28,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <Logo />
       </Box>
       <Box
-        sx={{ display: "flex", gap: "15px", minHeight: "500px", width: "100%" }}
+        sx={{
+          display: "flex",
+          gap: "15px",
+          minHeight: "500px",
+          width: "100%",
+        }}
       >
-        <Box sx={{ padding: "10px" }}>{children}</Box>
+        <Box sx={{ width: "100%", height: "100%" }}>{children}</Box>
       </Box>
       <Box>
         <Footer />
