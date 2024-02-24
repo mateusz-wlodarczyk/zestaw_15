@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import { Box } from "@mui/material";
 import Logo from "../components/Logo";
 import Footer from "../components/Footer";
@@ -16,7 +15,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       }}
     >
       <Box
-        //wycentrowac
         sx={{
           height: "150px",
           display: "grid",

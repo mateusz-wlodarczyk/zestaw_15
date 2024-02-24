@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import React from "react";
 import { ROUTES } from "../utils/constants";
 import { Link } from "react-router-dom";
 
