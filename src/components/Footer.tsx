@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
-import { FOOTER_LINK } from "../utils/constants";
 import { Link } from "react-router-dom";
+import { FOOTER_LINK } from "../routes/utils";
 
 export default function Footer() {
   return (

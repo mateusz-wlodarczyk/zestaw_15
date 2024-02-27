@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import { Link } from "react-router-dom";
-import { ROUTES } from "../utils/constants";
+import { ROUTES } from "../routes/utils";
 
 export default function DropdownMenu() {
   return (

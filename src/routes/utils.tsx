@@ -4,6 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FiMapPin } from "react-icons/fi";
 import { IoHomeOutline } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
+
 const styleFooterIcon = { width: "30px", height: "30px", color: "black" };
 
 const styleNavbarIcon = { width: "30px", height: "30px", color: "black" };
@@ -50,11 +51,3 @@ export const FOOTER_LINK = [
     icon: <FaInstagram style={styleFooterIcon} />,
   },
 ];
-
-export const welcomeText = {
-  header: "header main ",
-  paragraph_1:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis numquam impedit vel  nostrum temporibus consectetur, quibusdam provident qui? Similique vel, molestiae eius iure deserunt quisquam cum expedita iusto! Sequi, nisi. Lorem ipsum dolor sit amet consectetur  adipisicing elit. Itaque eum inventore quas, deserunt veniam nemo illo suscipit eos sit  fugiat unde fugit quod asperiores dolor delectus temporibus autem iure recusandae.",
-  paragraph_2:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis numquam impedit vel  nostrum temporibus consectetur, quibusdam provident qui? Similique vel, molestiae eius iure  deserunt quisquam cum expedita iusto! Sequi, nisi. Lorem ipsum dolor sit amet consectetur  adipisicing elit. Itaque eum inventore quas, deserunt veniam nemo illo suscipit eos sit  fugiat unde fugit quod asperiores dolor delectus temporibus autem iure recusandae.",
-};
